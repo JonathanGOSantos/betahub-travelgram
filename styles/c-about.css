@@ -1,0 +1,58 @@
+.c-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  padding: 1.25rem 2rem;
+  background-color: var(--surface-color);
+}
+
+.c-about__content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: auto;
+}
+
+.c-about__image {
+  border-radius: 50%;
+}
+
+.c-about__name {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 125%;
+}
+
+.c-about__description {
+  font-size: 0.875rem;
+  line-height: 170%;
+  color: var(--text-secondary);
+}
+
+.c-about__info {
+  flex-basis: 17.5rem;
+  display: flex;
+  justify-content: left;
+}
+
+.c-about__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0;
+
+  list-style: none;
+}
+
+.c-about__item {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c-about__data {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}

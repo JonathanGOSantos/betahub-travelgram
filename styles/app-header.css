@@ -1,0 +1,70 @@
+/* App Header */
+
+.c-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.25rem 2rem;
+  background-color: var(--surface-color);
+}
+
+.c-nav__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-nav__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  padding: 0;
+  list-style: none;
+}
+
+.c-nav__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 0.875;
+  text-decoration: none;
+  color: var(--text-secondary);
+  transition: 0.2s;
+
+  &:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+  }
+}
+
+.c-nav__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  background-color: transparent;
+
+  svg {
+    color: var(--text-secondary);
+    transition: 0.2s;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    svg {
+      color: var(--brand-color);
+    }
+  }
+}
+
+.c-nav__profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

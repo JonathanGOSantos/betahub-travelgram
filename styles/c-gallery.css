@@ -1,0 +1,32 @@
+.c-gallery {
+  padding: 1.25rem 2rem;
+}
+
+.c-gallery__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 0;
+
+  list-style: none;
+}
+
+.c-gallery__item {
+  flex: 1 1 286px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+
+  &:hover {
+    cursor: pointer;
+
+    .c-gallery__image {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.c-gallery__image {
+  width: 100%;
+  transition: 0.2s;
+}

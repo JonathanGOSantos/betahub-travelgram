@@ -1,0 +1,18 @@
+:root {
+  /* Text */
+  --text-primary: #313131;
+  --text-secondary: #6c6c6c;
+  font-family: 'Poppins', sans-serif;
+
+  /* Colors */
+  --brand-color: #ef5f4c;
+  --bg-color: #ffffff;
+  --surface-color: #f5f5f5;
+  --skeleton-color: #d9d9d9;
+  --shape-transparency: #ffffff56;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
